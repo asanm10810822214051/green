@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Government Arts and Science College, Tittagudi</title>
+<style>
+    body {
+        font-family: "Segoe UI", Arial, sans-serif;
+        background: #f5f5f5;
+        margin: 0;
+        padding: 20px;
+    }
+    .container {
+        max-width: 900px;
+        margin: auto;
+        background: #fff;
+        border-radius: 12px;
+        box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+        padding: 30px;
+    }
+    .header {
+        text-align: center;
+        margin-bottom: 25px;
+    }
+    .header h1 {
+        color: #0077cc;
+        font-size: 26px;
+        margin: 0;
+    }
+    .header p {
+        color: #444;
+        margin: 5px 0;
+        font-size: 15px;
+    }
+    .section-title {
+        font-size: 18px;
+        font-weight: 600;
+        color: #333;
+        margin-top: 30px;
+        margin-bottom: 10px;
+        border-bottom: 2px solid #f0b400;
+        padding-bottom: 5px;
+    }
+    .faculty-box {
+        background: #eaf3ff;
+        border-radius: 8px;
+        padding: 15px 20px;
+    }
+    .faculty-box ul {
+        margin: 0;
+        padding-left: 20px;
+    }
+    .faculty-box li {
+        margin: 8px 0;
+        font-size: 15px;
+    }
+    .faculty-box b {
+        color: #000;
+    }
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 15px;
+        font-size: 14px;
+    }
+    table thead {
+        background: #2d2d2d;
+        color: #fff;
+    }
+    table th, table td {
+        padding: 10px 12px;
+        text-align: left;
+        border-bottom: 1px solid #ddd;
+    }
+    table tbody tr:nth-child(even) {
+        background: #f9f9f9;
+    }
+    table tbody tr:hover {
+        background: #f1f7ff;
+    }
+    @media(max-width: 600px) {
+        .container { padding: 15px; }
+        .header h1 { font-size: 20px; }
+        table { font-size: 12px; }
+    }
+</style>
+</head>
+<body>
+
+<div class="container">
+    <div class="header">
+        <h1>Government Arts and Science College, Tittagudi</h1>
+        <p>Department of Computer Science</p>
+        <p>M.Sc. Computer Science (Second Year), Academic Year 2025-2026</p>
+    </div>
+
+    <div class="section-title">Faculty Members</div>
+    <div class="faculty-box">
+        <ul>
+            <li><b>Dr. S.P. PONNUSAMY</b> – Head of Department (HOD)</li>
+            <li><b>Ms. K. JAYALAKSHMI</b> – Guest Lecturer</li>
+            <li><b>MS. U. UMAMAHESHWARI</b> – Guest Lecturer</li>
+            <li><b>Ms. S. VALLI</b> – Guest Lecturer</li>
+            <li><b>Mr. M. SUBASH</b> – PTA Staff</li>
+        </ul>
+    </div>
+
+    <div class="section-title">Class Member List</div>
+    <table>
+        <thead>
+            <tr>
+                <th>Sl. No</th>
+                <th>Name</th>
+                <th>Department & Subject</th>
+                <th>Reg. No.</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>AARTHI R</td>
+                <td>M.Sc. Computer Science</td>
+                <td>24131196C504322001</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>ABIRAMI J</td>
+                <td>M.Sc. Computer Science</td>
+                <td>24131196C504322002</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+</body>
+</html>
